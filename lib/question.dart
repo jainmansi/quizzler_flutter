@@ -1,6 +1,6 @@
 class Question{
-  String questionText;
-  bool questionAnswer;
+  String q; //question
+  bool a; //answer
 
-  Question({this.questionText, this.questionAnswer});
+  Question({this.q, this.a});
 }

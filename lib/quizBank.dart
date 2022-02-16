@@ -41,11 +41,11 @@ class QuizBank {
   }
 
   String getQuestion() {
-    return _questionBank[_questionNum].questionText;
+    return _questionBank[_questionNum].q;
   }
 
   bool getAnswer() {
-    return _questionBank[_questionNum].questionAnswer;
+    return _questionBank[_questionNum].a;
   }
 
   void resetGame() {
